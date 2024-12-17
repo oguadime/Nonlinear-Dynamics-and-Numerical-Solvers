@@ -20,10 +20,10 @@ Additionally, the repository includes a Newton-Raphson Solver (NewtonIterationMe
 Each script can be executed directly in MATLAB. Input parameters (e.g., initial conditions and time steps) can be modified as needed. Example:
 ```matlab
 % Forward Euler with default settings
-NonlinearFEU();
+NonlinearFEU1();
 
 % Backward Euler with specific initial conditions and time step
-NonlinearBEU(0.5, 0.1);
+NonlinearBEU1(0.5, 0.1);
 ```
 Adaptive Time-Stepping Example: 
 ```matlab
